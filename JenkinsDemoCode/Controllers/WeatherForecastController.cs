@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace JenkinsDemoCode.Control
+namespace JenkinsDemoCode.Controllers
 {
-    [ApiContrr]
+    [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
