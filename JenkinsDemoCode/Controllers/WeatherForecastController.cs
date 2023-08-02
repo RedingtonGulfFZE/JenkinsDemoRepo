@@ -4,7 +4,7 @@ namespace JenkinsDemoCode.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class WeatherForecastController : ControllerBas
     {
         private static readonly string[] Summaries = new[]
         {
